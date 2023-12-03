@@ -1,0 +1,54 @@
+#header {
+    background-color: #e5e5e5;
+    padding: 30px 115px 0px 115px;
+    border: solid 2px;
+}
+
+#headernav {
+    background-color: white;
+    padding: 2px;
+    border: groove #ffffff73;
+}
+
+.conteinerimagen {
+    max-width: 80%;
+    max-height: 16%;
+    display: inline-flex;
+}
+
+img {
+    width: 36%;
+    padding-left:60px;
+}
+
+#navopciones {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 710px;
+    font-size: medium;
+}
+
+#conteiner {
+    background-color: white;
+    width: 1110px;
+    height: 200px;
+    border: groove #ffffff73;
+    border-top-width: 0px;
+}
+
+.home {
+    width: 120px;
+
+}
+
+.servicios {
+    width: 130px;
+
+}
+
+.socios {
+
+}
+
+    {}
