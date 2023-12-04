@@ -11,14 +11,19 @@
 }
 
 .conteinerimagen {
-    max-width: 80%;
-    max-height: 16%;
+    max-width: 85%;
+    max-height: 15%;
     display: inline-flex;
 }
 
-img {
-    width: 36%;
-    padding-left:60px;
+.imagenlogo {
+
+}
+
+.logo {
+    width: 32%;
+    padding-left: 100px;
+    cursor: pointer;
 }
 
 #navopciones {
@@ -32,14 +37,14 @@ img {
 #conteiner {
     background-color: white;
     width: 1110px;
-    height: 200px;
+    height: 75%;
     border: groove #ffffff73;
     border-top-width: 0px;
 }
 
 .home {
     width: 120px;
-
+    
 }
 
 .servicios {
@@ -50,5 +55,30 @@ img {
 .socios {
 
 }
+
+strong:hover {
+    color: #ea48a6;
+}
+
+.seccionhome {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.seccionservicios {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.seccionsocios {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+
+
 
     {}
