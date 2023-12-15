@@ -101,16 +101,16 @@ strong:hover {
 .botoncontrato {
     border-radius: 12px;
     border-color: #ea48a6;
-    background-color:#ea48a6;
-    color:white;
+    background-color: #ea48a6;
+    color: white;
     width: 90px;
 }
 
 .botoninfo {
     border-radius: 12px;
     border-color: #ea48a6;
-    background-color:#ea48a6;
-    color:white;
+    background-color: #ea48a6;
+    color: white;
     width: 90px;
 }
 
@@ -120,13 +120,13 @@ strong:hover {
 
 .botoncontrato:hover {
     cursor: pointer;
-    color:#ea48a6;
+    color: #ea48a6;
     background-color: white;
 }
 
 .botoninfo:hover {
     cursor: pointer;
-    color:#ea48a6;
+    color: #ea48a6;
     background-color: white;
 }
 
@@ -140,13 +140,106 @@ strong:hover {
 }
 
 .textoinfo {
-        margin-top: 0px;
-        color: #00000094;
-        width: 56%;
-        text-align: center;
-        font-size: large;
-        margin-top: 55px;
+    margin-top: 0px;
+    color: #00000094;
+    width: 56%;
+    text-align: center;
+    font-size: large;
+    margin-top: 55px;
 }
 
+#Beneficios {
+    background-color: #ffffff;
+    text-align: center;
+    border: groove #ffffff73;
+    border-top: 0px;
+    height: 60%;
+}
 
-    {}
+#beneficiosinicio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titulobenef {
+    margin-top: 0px;
+    color: #000000c9;
+    font-size: x-large;
+}
+
+.subtitulobenef  {
+    color: #00000094;
+    font-size: large;
+}
+
+.titulo24hs  {
+    color: #000000c9;
+}
+
+.titulomedico {
+    color: #000000c9;
+}
+
+.titulochip {
+    color: #000000c9;
+}
+
+.parrafo1 {
+    color: #00000094;
+}
+
+.parrafo2 {
+    color: #00000094;
+}
+
+.parrafo3  {
+    color: #00000094;
+}
+
+#Beneficioscards {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.Cajabeneficios1 {
+    display: flow;
+    max-width: 26%;
+    padding: 0px 15px 0px 15px;
+}
+
+.Cajabeneficios2 {
+    display: flow;
+    max-width: 26%;
+    padding: 0px 15px 0px 15px;
+}
+
+.Cajabeneficios3 {
+    display: flow;
+    max-width: 26%;
+    padding: 0px 15px 0px 15px;
+}
+
+#Beneficioscards img {
+    max-width: 22%;
+}
+
+#Beneficioscards p {
+    font-size: medium;
+}
+
+#Contactos {
+    background-color: #ffffff;
+    text-align: center;
+    border: groove #ffffff73;
+    border-top: 0px;
+    height: 50%;
+}
+
+#footer {
+    background-color: #ffffff;
+    text-align: center;
+    border: groove #ffffff73;
+    border-top: 0px;
+    height: 20%;
+}
