@@ -84,7 +84,7 @@ strong:hover {
 }
 
 #infoservicios {
-    width: 35%;
+    width: 40%;
 }
 
 .tituloservicios {
@@ -167,32 +167,16 @@ strong:hover {
     font-size: x-large;
 }
 
-.subtitulobenef  {
+.subtitulobenef {
     color: #00000094;
     font-size: large;
 }
 
-.titulo24hs  {
+.titulo {
     color: #000000c9;
 }
 
-.titulomedico {
-    color: #000000c9;
-}
-
-.titulochip {
-    color: #000000c9;
-}
-
-.parrafo1 {
-    color: #00000094;
-}
-
-.parrafo2 {
-    color: #00000094;
-}
-
-.parrafo3  {
+.parrafo {
     color: #00000094;
 }
 
@@ -228,12 +212,45 @@ strong:hover {
     font-size: medium;
 }
 
-#Contactos {
+.infocontacto {
+    width: 30%;
+}
+
+#sedes {
+    display: flex;
+    flex-direction: row;
+}
+
+.datos {
+    color: #00000094;
+    display: flex;
+}
+
+.fa-solid {
+    margin-right: 8px;
+    display: flex;
+}
+
+.imgcontacto {
+    filter: sepia();
+    height: 73%;
+    margin: 23px;
+}
+
+#iconos {
+    display: table-cell;
+    padding: 7px;
+}
+
+#contactos {
     background-color: #ffffff;
     text-align: center;
     border: groove #ffffff73;
     border-top: 0px;
-    height: 50%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #footer {
@@ -241,5 +258,10 @@ strong:hover {
     text-align: center;
     border: groove #ffffff73;
     border-top: 0px;
+    border-bottom: 0px;
     height: 20%;
+}
+
+.logofooter {
+    width: 7%;
 }
