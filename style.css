@@ -2,6 +2,7 @@
     background-color: #e5e5e5;
     padding: 30px 115px 0px 115px;
     border: solid 2px;
+    border-color: #ffffff73 ;
 }
 
 #headernav {
@@ -82,7 +83,7 @@ strong:hover {
 }
 
 #infoservicios {
-    width: 40%;
+    width: 30%;
 }
 
 .tituloservicios {
@@ -295,6 +296,14 @@ strong:hover {
 
 .logofooter {
     width: 7%;
+}
+
+.container-fluid {
+    display: none;
+}
+
+.bg-light button {
+    display: none;
 }
 
 /* Estilos para pantallas medianas */
